@@ -14,6 +14,6 @@ router.get('/', (req, res) => {
 
 //Create Designer Route
 router.post('/', (req, res) => {
-    res.send('Create ')
+    res.send('Create')
 })
 module.exports = router
