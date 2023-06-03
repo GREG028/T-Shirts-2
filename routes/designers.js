@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
 })
 
 // New Designer Route
-router.get('/', (req, res) => {
+router.get('/new', (req, res) => {
     res.render('designers/new')
 })
 
