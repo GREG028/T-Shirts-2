@@ -1,1 +1,9 @@
-All Designers
+<h2>Search Designers</h2>
+<form action="/designers" method="'GET">
+  <label>Name</label>
+  <input type="text" name="name" value="<%= searchOptions.name %>">
+  <button type="submit">Search</button>
+</form> <br>
+<% designers.forEach(designer => { %>
+    <div><%= designer.name %></div>
+<% }) %>
