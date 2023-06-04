@@ -1,0 +1,9 @@
+<h2>Search Designs</h2>
+<form action="/designs" method="'GET">
+  <label>Name</label>
+  <input type="text" name="name" value="<%= searchOptions.name %>">
+  <button type="submit">Search</button>
+</form> <br>
+<% design.forEach(design => { %>
+    <div><%= design.title %></div>
+<% }) %>
